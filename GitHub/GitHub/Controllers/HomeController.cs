@@ -20,6 +20,7 @@ namespace GitHub.Controllers
         }
         public ActionResult GetClient()
         {
+            ViewData["Time"] = DateTime.Now.ToString();
             return View("HomeView");
         }
     }
