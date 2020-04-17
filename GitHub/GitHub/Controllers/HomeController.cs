@@ -15,6 +15,7 @@ namespace GitHub.Controllers
             Clients obj = new Clients();
             obj.ClientId = 1001;
             obj.ClientName = "Client1";
+            obj.ClientAddress = "Hyderabad";
             return View("ClientsView",obj);
         }
     }
