@@ -18,5 +18,9 @@ namespace GitHub.Controllers
             obj.ClientAddress = "Hyderabad";
             return View("ClientsView",obj);
         }
+        public ActionResult GetClient()
+        {
+            return View("HomeView");
+        }
     }
 }
